@@ -88,7 +88,6 @@ client.on('messageCreate', async function (message) {
             //Cleans up the text content
             text = text.trim();
             text = text.toLowerCase();
-            console.log(text);
 
             //Set the bot to the default personality
             if (text === 'default') {
@@ -201,7 +200,7 @@ client.on('messageCreate', async function (message) {
             }
         }
 
-        console.log(respondCounter);
+        //Display the bot's response to the console
         console.log(response);
 
         //Delay the bots responses depending on the response length
