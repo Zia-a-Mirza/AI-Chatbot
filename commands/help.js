@@ -9,9 +9,9 @@ module.exports = {
         // Create an embed with help information
         const helpEmbed = new EmbedBuilder()
             .setColor(0x0099FF)
-            .setTitle('Commands')
-            .setURL('')
-            .setAuthor({ name: 'JoeAI', iconURL: 'https://imgur.com/3E89GeK.png', url: '' })
+            .setTitle('GitHub')
+            .setURL('https://github.com/Zia-a-Mirza/JoeAI')
+            .setAuthor({ name: 'JoeAI', iconURL: 'https://imgur.com/3E89GeK.png', url: 'https://github.com/Zia-a-Mirza/JoeAI' })
             .setDescription('The list of usable non slash commands')
             .setThumbnail('https://imgur.com/3E89GeK.png')
             .addFields(
