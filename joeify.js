@@ -2,7 +2,7 @@ const { messageLink } = require("discord.js");
 
 module.exports = (response) => {
 
-    // Reply with the generated response
+    //Generate a random number to determine response variation
     let random = Math.floor(Math.random() * 4) + 1;
     console.log(response);
 

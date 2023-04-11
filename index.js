@@ -149,7 +149,7 @@ client.on('messageCreate', async function (message) {
         //Return bot texts
         if(message.author.bot) return;
 
-        //Code for the original AI
+        //Randomly set the number of messages to respond to
         if (respondCounter >= respondLimit) {
             respondLimit = Math.floor(Math.random() * 2) + 1;
             respondCounter = 0;
