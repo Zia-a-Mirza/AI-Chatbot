@@ -63,8 +63,9 @@ module.exports = (response) => {
     //Change the vocabulary of the bot to be more casual
     const vocab = [
         { old: "be right back", new: "brb" },
-        { old: "definitely", new: "def" },
-        { old: "so much", new: "sm" },
+        { old: "by the way", new: "btw" },
+        { old: "just kidding", new: "jk" },
+        { old: "by the way", new: "btw" },
 
     ];
     
